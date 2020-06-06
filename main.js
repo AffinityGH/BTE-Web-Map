@@ -74,7 +74,7 @@ function findLatLong(){
   let lat = Math.round(ctr.lat * 1000000) / 1000000;
   let lon = Math.round(ctr.lng * 1000000) / 1000000;
   
-  document.getElementById("latlong").innerHTML = lat +" "+ lon;
+  document.getElementById("latlong").innerHTML = "/tpll " + lat +", "+ lon;
 }
 
 //update lat and long
